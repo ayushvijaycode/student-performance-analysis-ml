@@ -170,7 +170,7 @@ student-performance-analysis-ml/
 │   └── screenshots/
 │       ├── actual-vs-predicted.png
 │       ├── correlation-heatmap.png
-│       └── study-hours-vs-score.png
+│       └── streamlit-app.png
 ├── notebooks/
 │   └── student_analysis.ipynb
 ├── results/
