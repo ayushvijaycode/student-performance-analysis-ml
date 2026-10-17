@@ -2,6 +2,13 @@
 
 # 🎓 Student Performance Analysis & Score Prediction
 
+## 🚀 Live Demo
+
+**Try the live application here:**  
+👉 [Student Performance Predictor](https://student-performance-analysis-ml-zhhp69adhbpbz7sp9qgeyg.streamlit.app/)
+
+A machine learning web application that predicts student exam scores using academic and lifestyle factors.
+
 ### Turning student data into insights with Python, visual analytics, and machine learning.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
