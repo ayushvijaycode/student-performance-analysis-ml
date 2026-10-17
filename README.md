@@ -118,11 +118,10 @@ The sample run achieved approximately **R² = 0.62**. This is a demonstration re
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/student-performance-analysis-ml.git
+git clone https://github.com/ayushvijaycode/student-performance-analysis-ml.git
 cd student-performance-analysis-ml
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ### 2. Create and activate a virtual environment
 
@@ -144,21 +143,27 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 4. Run the model
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL displayed in your terminal to use the Student Performance Predictor.
+
+### 5. Train the Model (Optional)
+
+To retrain the machine learning model, run:
 
 ```bash
 python src/train_model.py
 ```
 
-The script prints cleaning checks, regression metrics, and feature coefficients. It also updates the actual-vs-predicted chart in `results/`.
+### 6. Explore the Jupyter Notebook
 
-### 5. Explore the notebook
+Open `notebooks/student_analysis.ipynb` in Jupyter Notebook or VS Code.
 
-```bash
-jupyter notebook
-```
-
-Open `notebooks/student_analysis.ipynb`. If the CSV path does not resolve, run Jupyter from the project root and use `data/student_performance.csv`.
+Ensure the dataset is available at `data/student_performance.csv` and run Jupyter from the project root directory.
 
 ## 📁 Repository Structure
 
