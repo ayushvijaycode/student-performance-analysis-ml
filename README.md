@@ -50,7 +50,7 @@ This end-to-end portfolio project explores relationships between study habits, a
 ## 📊 Project Preview
 
 ### Study hours vs. final exam score
-![Study hours vs score](docs/screenshots/study-hours-vs-score.png)
+![Study hours vs score](docs/screenshots/streamlit-app.png)
 
 ### Correlation between features
 ![Correlation heatmap](docs/screenshots/correlation-heatmap.png)
